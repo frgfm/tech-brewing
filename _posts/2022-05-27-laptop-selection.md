@@ -57,17 +57,25 @@ While the last three are self-explanatory, let's elaborate a bit on the first as
 Performance-wise, the following concepts are very important as they define how you will experience your laptop (taking ages to open a single file :turtle: vs. feeling like your laptop is always waiting on you :sunglasses:).
 
 #### Memory
-storage vs RAM
+Storage
+https://media.kingston.com/kingston/hero/ktc-hero-ssd-a400-m2-lg.jpg
+RAM
+https://www.crucial.fr/content/dam/crucial/dram-products/laptop/images/web/crucial-ddr4-sodimm-kit-w-shadow-image.psd.transform/small-jpg/img.jpg
 
 HDD & SSD
+
+
 RAM clockspeed
 
 #### Processing units
-CPU & GPU
+CPU
+https://i.insider.com/60402d82b46d720018b04c1d?width=1136&format=jpeg
+GPU
+https://assets2.rockpapershotgun.com/nvidia-rtx-gpu.jpg/BROK/resize/1920%3E/format/jpg/quality/80/nvidia-rtx-gpu.jpg
 
 
 #### Screen specifications
-refresh rate, native resolution
+refresh rate, native resolution, mat
 
 
 ### The different usage types
@@ -140,6 +148,11 @@ What this section means is that slow data reading, insufficient storage, and dyi
 - RAM: capacity
 - Storage: >= 512, HDD/SSD
 
+<details>
+  <summary>Integrated vs dedicated graphics</summary>
+  
+  Modern laptops always have a GPU, but we focus on dedicated GPUs here, which are much more powerful. You can easily recognize this with the brand: NVIDIA (GeForce products) and AMD (Radeon products) are the market leaders on dedicated GPUs, if it's from another brand (like Intel), it's most likely an integrated GPU. Confirm your hunch with a web search :wink:
+</details>
 
 Now given your budget, that should already narrow it down to a few laptop models.
 
@@ -171,15 +184,20 @@ Second hand: backmarket
 
 ## Let's take a recent example
 
-My criteria:
-- usage: Work - DL
-- preferences: 15', autonomy
-- budget: 1500€
-- azerty layout
+My criteria
+| Column 1 | Column 2 |
+|-|-|
+| Usage | Working & Graphics intensive [^2] |
+| Sreen size | 15' |
+| Sreen resolution | 1080p [^3] |
+| Autonomy | >= 3-4h when not using the GPU |
+| Budget | <= 1500€ |
+| Kayboard layout | Azerty |
+
 
 -->
 - screen size: 15'
-- GPU: NVIDIA GeForce, RTX 30
+- GPU: NVIDIA GeForce, RTX 20 or 30
 - CPU: Intel Core 12th gen (>= i5) or 11th gen(>= i7)
 - RAM: >=16Gb
 - Storage: >= 512, SSD
@@ -192,13 +210,32 @@ laptops:
 - msi gf66
 
 
-close:
+closer:
 - screen native resolution' --> FHD (1080p)
 - battery: 80Wh/86Wh
 - Keyboard layout: azerty
 - wifi: 11ac vs. 11ax
 - ram dual channel
 - compat with Ubuntu
+- MUX switch
+
+
+{% include youtube.html content='https://www.youtube.com/embed/i9Dy_1SSw2U' %}
+https://www.cpubenchmark.net/compare/Intel-i7-12700H-vs-Intel-i7-11800H-vs-Intel-i5-11400H-vs-Intel-i7-11600H-vs-Intel-i5-12500H/4721vs4358vs4457vs4629vs4750
+https://gpu.userbenchmark.com/Compare/Nvidia-RTX-3060-Laptop-vs-Nvidia-RTX-2070-Mobile-Max-Q/m1452971vsm703511
+Reviews
+https://www.youtube.com/watch?v=Ej_mgN25a_I
+https://www.youtube.com/watch?v=m5to9qZwaDk
+https://www.youtube.com/watch?v=kRjyxh9AG1w
+
+upgradable 
+https://www.youtube.com/watch?v=o-Z9JV4f4K0
+
+confirm
+https://www.youtube.com/watch?v=Bq1NPvqI91w
+
+hardware announcements
+NVIDA RTX 30 : https://www.youtube.com/watch?v=E98hC9e__Xs
 
 
 
@@ -215,22 +252,6 @@ close:
 - upgrading sofware
 
 
-
-## Tables
-
-| Column 1 | Column 2 |
-|-|-|
-| A thing | Another thing |
-
-
-{% include youtube.html content='https://www.youtube.com/embed/i9Dy_1SSw2U' %}
-
-
-<details>
-  <summary>Over here for more details!</summary>
-  
-  blabla
-</details>
-
-
 [^1]:some manufacturers, like Apple, don't let people easily tweak the interior or their laptops.
+[^2]:I would be using it for Deep Learning more specifically.
+[^3]:corresponds to 1920 by 1080 pixels, also called FHD (Full High Definition).
