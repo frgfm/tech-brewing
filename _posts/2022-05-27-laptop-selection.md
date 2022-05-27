@@ -1,15 +1,20 @@
 ---
-toc: true
-layout: post
-description: How to properly select the laptop for your needs.
-categories: [markdown]
 title: How to select your new laptop
+description: How to properly select the laptop for your needs.
+comments: true
+hide: true
+toc: false
+layout: post
+categories: [hardware, laptop]
+image: https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80
+author: "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+permalink: /choosing-a-new-laptop
 ---
 # How to select your new laptop
 
 Whether you have always deferred your laptop selection to local shop salesperson, or you're a professional developer, you may still feel like jumping into the unknown when choosing a new laptop. This article aims at sharing with you easy ways for an efficient laptop selection that will suit your needs.
 
-<iframe src="https://giphy.com/embed/aNqEFrYVnsS52" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-brighten-yourlaptop-aNqEFrYVnsS52">via GIPHY</a></p>
+![cat-typing](https://media2.giphy.com/media/aNqEFrYVnsS52/giphy.gif?cid=790b76110bc8301ab8d1364278f76e6744830cc3678964af&rid=giphy.gif&ct=g)
 
 First off, so that you don't feel wronged: I'm not a laptop expert and I have never worked for a laptop manufacturer. I had to purchase laptops for different purposes and different price ranges over the last 10-15 years. But I am quite thorough about benchmarking my options, so I thought I'd share what you could easily benefit from: for your budget, showing you how to select the best laptop option.
 
@@ -25,7 +30,7 @@ What this article is about:
 
 What this is not about:
 - telling you which laptop to buy right now
-- advertising products or services of any kind
+- advertising products or services of any kind (products shown in this article are used as examples for the selection process, I have no affiliation of any kind with any of these product manufacturers)
 
 ## How are we going to compare this
 ### Can't we get everything at once?
@@ -60,6 +65,15 @@ Fortunately, people have already done the job for you. What you need: copy pasti
 
 ## Selection process
 
+
+### Why not upgrade your existing laptop?
+
+
+
+### Considering second-hand options
+
+Backmarket
+
 ### Upgradability
 RAM slots, SSD
 
@@ -70,6 +84,8 @@ Non-NVIDIA
 
 ### How should you filter your search?
 
+Goal: narrow it down to good laptops
+
 - battery: 80Wh/86Wh
 - cpu perf : intel gen
 - ram : 2 slot
@@ -77,6 +93,15 @@ Non-NVIDIA
 - wifi: 11ac vs 11ax
 - screen: 15' --> FHD (1080p)
 - compat with ubuntu
+- keyboard layout
+
+### Where to buy it
+
+At least compare: the manufacturer site, and your favorite tech product store website
+Highly highly suggested: type your desired laptop model on search engine
+
+WARNING: for each model, there might be different configurations. Ensure this is the same that you benchmarked (or more favorable)
+
 
 
 ## Let's take a recent example
@@ -85,15 +110,22 @@ My criteria:
 - usage: Work - DL
 - preferences: 15', autonomy
 - budget: 1500€
+- azerty layout
 
-Dell G15 5520 vs. Lenobo Legion 5i vs. Acer Helios
+
+
+laptops:
+- acer predator helios 300
+- dell g15 5520
+- lenovo legion 5i
+- msi gf66
 
 
 
 ## Side tricks to avoid shortening your laptop life
 
 ### hardware 
-- don't obstruct fans,
+- don't obstruct fans: laptop stand
 - clean it once in a while
 
 ### software
@@ -104,17 +136,6 @@ Dell G15 5520 vs. Lenobo Legion 5i vs. Acer Helios
 
 
 
-## Basic formatting
-
-You can use *italics*, **bold**, `code font text`, and create [links](https://www.markdownguide.org/cheat-sheet/). Here's a footnote [^1]. Here's a horizontal rule:
-
----
-
-
-## Images
-
-![]({{ site.baseurl }}/images/logo.png "fast.ai's logo")
-
 
 ## Tables
 
@@ -123,14 +144,9 @@ You can use *italics*, **bold**, `code font text`, and create [links](https://ww
 | A thing | Another thing |
 
 
-## Tweetcards
 
-{% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
-
-
-## Footnotes
-
-
-
-[^1]: This is the footnote.
-
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>{% include youtube.html content='<a href="https://www.youtube.com/embed/i9Dy_1SSw2U">https://www.youtube.com/embed/i9Dy_1SSw2U</a>' %}</p>
+</div>
+</div>
