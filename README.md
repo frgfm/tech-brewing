@@ -6,7 +6,7 @@
 
 https://frgfm.github.io/tech-brewing/
 
-# My Blog
+# Technical blog
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
