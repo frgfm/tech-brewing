@@ -2,7 +2,7 @@
 title: How to choose your new laptop
 description: Getting the right knowledge and tools to easily select your new laptop.
 comments: true
-hide: true
+hide: false
 toc: true
 layout: post
 categories: [hardware, laptop]
