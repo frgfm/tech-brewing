@@ -1,5 +1,5 @@
 ---
-title: How to choose your new laptop
+title: How to choose your new laptop :computer:
 description: Getting the right knowledge and tools to easily select your new laptop.
 comments: true
 hide: true
