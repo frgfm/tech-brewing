@@ -33,7 +33,7 @@ What this article is not about:
 <details>
   <summary>Over here for more details :point_left:</summary>
   
-  Those sections are meant for readers who want to dive a bit deeper into the topic.
+  Those sections are meant for readers who want to dive a bit deeper into the topic, while avoiding information cluttering for casual readers.
 </details>
 
 ---
@@ -57,15 +57,52 @@ While the last three are self-explanatory, let's elaborate a bit on the first as
 Performance-wise, the following concepts are very important as they define how you will experience your laptop (taking ages to open a single file :turtle: vs. feeling like your laptop is always waiting on you :sunglasses:).
 
 #### Memory
-Storage
-https://media.kingston.com/kingston/hero/ktc-hero-ssd-a400-m2-lg.jpg
-RAM
-https://www.crucial.fr/content/dam/crucial/dram-products/laptop/images/web/crucial-ddr4-sodimm-kit-w-shadow-image.psd.transform/small-jpg/img.jpg
 
-HDD & SSD
+For computers, memory is a bit too broad of a term: we distinguish storage (things that remains saved even after shutting down your laptop) from RAM (information currently being used by your computer to perform a task at a given moment).
+
+{% include info.html text="RAM stands for Random Access Memory, which isn't very explicit. The French name is more self-explanatory 'mémoire vive' which translates to 'quick/vivacious memory'." %}
+
+##### Storage
+
+To put this into perspective, when using your file explorer, the files that you see are located on your storage device. The information is written in this device so that when powered off, the data prevails. The parallel with human memory would be that storage is where you keep the memory of your first holiday abroad without thinking actively about it. They can be used as external storage devices, and internal ones. Here we focus on the latter[^1], because that's what comes with your laptop.
+
+![kingston-ssd](https://media.kingston.com/kingston/hero/ktc-hero-ssd-a400-m2-lg.jpg)
+
+To compare storage options, consider their storage capacity (measured in Gigabytes/Gb or Gigaoctets/Go) and their read/write speed. To avoid getting a bit too technical, among the two main storage types, HDD (Hard Disk Drive) and SSD (Solid State Drive), SSDs are considerably faster but more expensive.
+
+<details>
+  <summary>HDD vs. SSD</summary>
+
+  ![hdd-versus-ssd](https://microage.ca/quebec/wp-content/uploads/sites/56/bb-plugin/cache/hard-drive-ssd-1-landscape.jpg)
+
+  HDD are spinning disks, similar to vinyl record/CD, with two layers: a ferromagnetic layer, where data is stored, and a protective layer. The data interactions are performed by a read/write head (actuator arm), by leveraging the relation between electric current and local magnetic field. They were [introduced by IBM in 1956](https://www.ibm.com/ibm/history/exhibits/storage/storage_350.html).
+
+  For SSDs, forget the spinning disk, each byte of information is written on [MOS transistors](https://en.wikipedia.org/wiki/MOSFET). Thanks to the general trend of transistor density in manufacturing (cf. [Moore law](https://en.wikipedia.org/wiki/Moore%27s_law)), we can now fit quite a lot of those on an integrated circuit. It was first [brought to market by SanDisk in 1991](https://www.computerhistory.org/storageengine/solid-state-drive-module-demonstrated/).
+</details>
+
+##### RAM
+
+RAM could be seen as the maximum immediate capacity to remember information (phone number, etc.). On a computer, you sollicitate the RAM as open more web browser tabs, or applications for instance. In terms of speed, SSDs can't even compete with RAM, but RAM is much more limited in terms of capacity (as of 2022, usually a few Gb or dozens of Gb, while storage capacity is roughly two orders of magnitude larger).
+
+![ram](https://www.crucial.fr/content/dam/crucial/dram-products/laptop/images/web/crucial-ddr4-sodimm-kit-w-shadow-image.psd.transform/small-jpg/img.jpg)
 
 
-RAM clockspeed
+<details>
+  <summary>RAM frequency</summary>
+
+  Clock cycles: 4800MHz -> 4.8 billion cycles per second
+
+  Column Access Strobe Latency (CL): number of clock cycles it takes for the RAM to respond to a command
+
+  SDR vs. DDR
+  ![sdr-ddr](https://www.cgdirector.com/wp-content/uploads/media/2022/03/SDR-vs-DDR-1536x810.jpg)
+
+  DDR generation: DDR4 (1600-3600 MHz) DDR5 (3200-6400 MHz)
+
+  Dual-channel: when your CPU needs to hold data, but your RAM capacity is reached or the RAM speed isn't enough, it will start to use your storage device for this, which is much slower. Enters dual-channel memory to increase the transfer rate between the computer's memory and the CPU. Instead of having a single channel 8Gb RAM connected to your motherboard & thus CPU, having 2 4Gb RAM sticks will have the same RAM capacity as before but double the maximum speed.
+  
+  
+</details>
 
 #### Processing units
 CPU
@@ -113,7 +150,7 @@ A few notes on hardware constraints depending on your usage type:
 If you already own a laptop, it might be worth checking if it cannot be upgraded. By upgrading, I mean changing some parts that would have a significant influence on performances.
 
 
-What you can generally upgrade/replace[^1]:
+What you can generally upgrade/replace[^2]:
 - RAM: if sometimes your computer freezes temporarily, you might want to switch to a larger RAM capacity.
 
 <details>
@@ -182,23 +219,22 @@ Second hand: backmarket
 
 
 
-## Let's take a recent example
+## A concrete example
 
 My criteria
 | Column 1 | Column 2 |
 |-|-|
-| Usage | Working & Graphics intensive [^2] |
+| Usage | Working & Graphics intensive [^3] |
 | Sreen size | 15' |
-| Sreen resolution | 1080p [^3] |
+| Sreen resolution | 1080p [^4] |
 | Autonomy | >= 3-4h when not using the GPU |
 | Budget | <= 1500€ |
 | Kayboard layout | Azerty |
 
 
--->
-- screen size: 15'
+--> Working & DL usage
 - GPU: NVIDIA GeForce, RTX 20 or 30
-- CPU: Intel Core 12th gen (>= i5) or 11th gen(>= i7)
+- CPU: Intel Core 12th gen (>= i5) or 11th gen(>= i7) OR AMD Ryzen 6k series (>=5) or 5k series(>= 7)
 - RAM: >=16Gb
 - Storage: >= 512, SSD
 
@@ -217,7 +253,18 @@ closer:
 - wifi: 11ac vs. 11ax
 - ram dual channel
 - compat with Ubuntu
-- MUX switch
+
+<details>
+  <summary>MUX Switch</summary>
+  
+  So this is a concept I discovered while benchmarking a few weeks back but quite an interesting one, especially if you're using your laptop for Gaming!
+
+  With a MUX Switch: data processed on dGPU, then directly displayed on screen
+  Without: data processed on dGPU, then processed by iGPU, then displayed on screen
+
+  What does that change: having MUX switch lets you choose, but when it's on, you get better FPS in games, at the cost of high power/battery consumption.
+  {% include youtube.html content='https://www.youtube.com/embed/6mWies_4oDs' %}
+</details>
 
 
 {% include youtube.html content='https://www.youtube.com/embed/i9Dy_1SSw2U' %}
@@ -251,7 +298,7 @@ NVIDA RTX 30 : https://www.youtube.com/watch?v=E98hC9e__Xs
 - don't take the pre-installed tools as fixed (web browser, media player, etc.)
 - upgrading sofware
 
-
-[^1]:some manufacturers, like Apple, don't let people easily tweak the interior or their laptops.
-[^2]:I would be using it for Deep Learning more specifically.
-[^3]:corresponds to 1920 by 1080 pixels, also called FHD (Full High Definition).
+[^1]:both serve the same function. But external drives are usually used for backups and extra file storage, while internal ones, on top of static files, also hold your operating system files (e.g. Windows, MAC, Ubuntu, etc.).
+[^2]:some manufacturers, like Apple, don't let people easily tweak the interior or their laptops.
+[^3]:I would be using it for Deep Learning more specifically.
+[^4]:corresponds to 1920 by 1080 pixels, also called FHD (Full High Definition).
