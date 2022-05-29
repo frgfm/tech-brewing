@@ -3,7 +3,7 @@ title: How to choose your new laptop
 description: Getting the right knowledge and tools to easily select your new laptop.
 comments: true
 hide: false
-toc: true
+toc: false
 layout: post
 categories: [hardware, laptop]
 image: https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80
@@ -28,6 +28,13 @@ What this article is not about:
 
 {% include info.html text="Resources and products shown here are used as examples, I have no affiliation of any kind with any of those." %}
 
+<details>
+  <summary>Click here :point_left: </summary>
+
+  To avoid putting too much information for casual readers, advanced topics will be hidden in those collapsible sections. Click on them to expand it if you want additional details!
+
+</details>
+
 ---
 
 ## How are we going to compare this
@@ -36,7 +43,7 @@ Let's lay down a few things you should be aware of to be methodical here.
 
 ### What is there to balance?
 
-Here we'll consider four main aspects: performance :zap:, autonomy :hourglass_flowing_sand:, price :euro:, weight :weight_lifting:.
+Here we'll consider four main aspects: performance :zap:, autonomy :hourglass_flowing_sand:, price :euro:, weight :weight_lifting:
 
 To elaborate a bit on the first aspect, "performance" has two sides:
 - what produces pure performance: data read/write speed, data processing speed.
@@ -63,9 +70,9 @@ To compare storage options, consider their storage capacity (measured in Gigabyt
 <details>
   <summary>HDD vs. SSD</summary>
 
-  HDD are spinning disks, similar to vinyl record/CD, with two layers: a ferromagnetic layer, where data is stored, and a protective layer. The data interactions are performed by a read/write head (actuator arm), by leveraging the relation between electric current and local magnetic field.<br>
+  HDD are spinning disks, similar to vinyl record/CD, with two layers: a ferromagnetic layer, where data is stored, and a protective layer. The data interactions are performed by a read/write head (actuator arm), by leveraging the relation between electric current and local magnetic field.<br><br>
 
-  For SSDs, forget the spinning disk, each byte of information is written on <a href="https://en.wikipedia.org/wiki/MOSFET">MOS transistors</a>. Thanks to the general trend of transistor density in manufacturing (cf. <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore law</a>), we can now fit quite a lot of those on an integrated circuit.
+  SSDs don't have any disk, and each byte of information is written on <a href="https://en.wikipedia.org/wiki/MOSFET">MOS transistors</a>. Thanks to the general trend of transistor density in manufacturing (cf. <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore law</a>), we can now fit quite a lot of those on an integrated circuit.
 
 </details>
 
@@ -124,7 +131,7 @@ Every personal computers has a Central Processing Unit (CPU). This component has
 
 ![fascinating](https://media3.giphy.com/media/4LwKrBfFQgBaw/giphy.gif?cid=790b76114abee4be7adcad307d3b666aaa2a4c05a8c7bb8f&rid=giphy.gif&ct=g)
 
-Fortunately there are multiple online benchmarks that compare CPUs for you. They always produce an aggregate performance score that you can reliably use for your own comparison (e.g. [CPU Benchmark](https://www.cpubenchmark.net/))
+That may not sound very appealing, right? Fortunately there are multiple online benchmarks that compare CPUs for you, and provide an aggregate performance score that you can reliably use for your own comparison (e.g. [CPU Benchmark](https://www.cpubenchmark.net/))
 
 #### GPU
 
@@ -143,7 +150,7 @@ If we leave it up to the CPU to do this, as mentioned, the task parallelisation 
 
 ![sleepy-jim](https://media2.giphy.com/media/nqS1Eikkw2Lsc/giphy.gif?cid=790b7611e6c1353efa51d04b7c389e2f15b0cd4a88b16900&rid=giphy.gif&ct=g)
 
-Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU User Benchmark](https://gpu.userbenchmark.com/)).
+That's a lot of information, I agree. Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU User Benchmark](https://gpu.userbenchmark.com/)) that will do the heavy lifting for you!
 
 <details>
   <summary>The other lesser known siblings: TPU & IPU</summary>
@@ -158,13 +165,18 @@ Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU Use
 
 For your screen, there are three main aspects to consider: size, native resolution, refresh rate.
 
-The screen size is self-explanatory, but depending on your usage, you might have different preferences. Bigger screens are nicer for media and gaming, but the laptop becomes heavier. The current industry usually proposes 3 main otions: 13', 15' or 17' (number of inches along the diagonal of the display).
+#### Screen size
 
+Depending on your usage, you might have different preferences. Bigger screens are nicer for media and gaming, but the laptop becomes heavier. The current industry usually proposes 3 main otions: 13', 15' or 17' (number of inches along the diagonal of the display).
+
+#### Native resolution
 ![screen-resolution](images/screen-resolution.png)
 
 If you have spend a bit of time on video platforms such as YouTube, you may remember the quality settings of videos (1080p, 720p, etc.). As shown in the illustration above, you will find the dominant video quality settings on the market nowadays. 
 
 Why am I showing this? If you're using your laptop for media, and your movies are all in FHD (1080p), going for a laptop with QHD or UHD native resolution will cost you a lot more and won't change anything to your viewing [^1]. You get optimal results when your screen **native resolution** (number of physical pixels on each side of your screen) matches the resolution of the media you are watching, and that also applies to gaming.
+
+#### Refresh rate
 
 Alright, what is the refresh rate now? It is the maximum number of times a pixel on your screen will change value per second. What does this mean? A low value like 60Hz might sometimes look like there is some flickering, while high values like 165Hz will look much smoother.
 
@@ -175,7 +187,7 @@ One last thing: especially, if you are using your laptop outside regularly, try 
 
 ### Sum-up
 
-Time for a quick recap!
+With all this information, you deserve a quick recap!
 
 ![b99-noice](https://media4.giphy.com/media/26FPqAHtgCBzKG9mo/giphy.gif?cid=790b76118828610e5a6665ccea6b6370e5a9af76a2051141&rid=giphy.gif&ct=g)
 
@@ -188,11 +200,12 @@ Time for a quick recap!
 - **GPU**: performs operations in parallel, not essential to your laptop (apart from gaming & other graphics intensive usages). You can compare performances on websites such as [GPU User Benchmark](https://gpu.userbenchmark.com/).
 
 **Display**
+- **screen size**: the physical size of your screen.
 - **native resolution**: the number of pixels on each side of your screen.
 - **refresh rate**: how many times per second each pixel value can change.
 
 
-### The different usage types
+## The different usage types
 
 You can always have multiple usage for your laptop, but I highly suggest you take a second to wonder what you will actually use it for in the coming years. I'll distinguish 4 usage types and lay out how they translate in terms of comparison aspects:
 - **Gaming**: no real concern for autonomy or weight, budget can vary, performance is key
@@ -216,9 +229,9 @@ What you can generally upgrade/replace[^2]:
 
 {% include info.html text="Especially for battery, it is highly recommended to replace it with one that has the same specifications! Search for your model name appended with 'battery'." %}
 
-Whatever the type of modifications you're considering, check whether your model can be upgraded (simple web search, or Youtube search), and if the replacing components are available for sale.
+*Whatever the type of modifications you're considering, check whether your model can be upgraded (simple web search, or Youtube search), and if the replacing components are available for sale.*
 
-In a nutshell, slow data reading, insufficient storage, and dying battery are far from requiring the purchase a new laptop. Please don't buy a new laptop if that's the main reason, replacing a component is significantly cheaper and the planet will be quite thankful :green_heart:
+In a nutshell, **slow data reading, insufficient storage, and dying battery are far from requiring the purchase a new laptop**. Please don't buy a new laptop if that's the main reason, replacing a component is significantly cheaper and the planet will be quite thankful :green_heart:
 
 
 ### Narrow down the search scope
@@ -251,7 +264,7 @@ Once you've exhausted the search filters, we're going to have to take a closer l
 
 | Criteria | Options | Recommended |
 |-|-|-|
-| Battery | 40Wh, 60Wh, 80-90Wh | Compensate for your system consumption: GPUs consume more power, so graphics-intesive users should aim for 60Wh at minimum. |
+| Battery | 40Wh, 60Wh, 80-90Wh | GPUs consume more power, so graphics-intesive users should aim for at least 60Wh. |
 | Keyboard layout | qwerty, azerty, etc. | depends on your region & spoken language |
 | Wifi card | 11ac, 11ax | 11ax is the new, faster generation for Wifi |
 | OS compatibility | Windows, MAC, Ubuntu | you'll need Windows for Gaming, the rest is up to you |
@@ -265,7 +278,7 @@ Here is a quick checklist:
 - check the manufacturer & product line current reputation (if they have very bad reviews and sales, this product line might disappear in the near future)
 - compare the CPUs using online benchmarks (on the product page, copy paste the CPU model in the search bar of the website)
 - if there is one, compare the GPUs using online benchmarks.
-- watch 2-3 **recent** review or comparison videos about those models (only look out for red flags). YouTube channels (e.g. [JarrodsTech](https://www.youtube.com/c/JarrodsTech), [MatthewMoniz](https://www.youtube.com/c/MatthewMoniz1), [LinusTechTips](https://www.youtube.com/c/LinusTechTips)) can be very useful.
+- watch 2-3 **recent** reviews or comparison videos about those models (only look out for red flags). YouTube channels (e.g. [JarrodsTech](https://www.youtube.com/c/JarrodsTech), [MatthewMoniz](https://www.youtube.com/c/MatthewMoniz1), [LinusTechTips](https://www.youtube.com/c/LinusTechTips)) can be very useful.
 
 
 ### Where to buy it
@@ -273,11 +286,12 @@ Here is a quick checklist:
 ![bravo](https://media4.giphy.com/media/mGK1g88HZRa2FlKGbz/giphy.gif?cid=790b76115969c173099367a0b4034bcaa04fca45c56fe147&rid=giphy.gif&ct=g)
 
 Congratulations, you found your ideal laptop :clap:
+
 Now to get your hands on it, at the best price, you should check:
-- second-hand platforms (who knows, you might be surprised by our brand-new a refurbished product might look, and it's cheaper!)
+- second-hand platforms (e.g. [BackMarket](https://www.backmarket.fr/)): you might be surprised by how brand-new a refurbished product might look, and it's cheaper!
 - manufacturer website (e.g. Dell, Acer, Asus, Apple, HP, Lenovo, Razer, etc.)
 - your favorite tech product store's website
-- searching for that model on a search engine (yes, really do, you might be able to save a lot with a deal that you missed)
+- searching for that model on a search engine (yes, please do, you might be able to save a lot with a deal that you missed)
 
 {% include alert.html text="For each laptop model, there might be multiple manufacturer configurations. Ensure that your selection is the same as the one you just benchmarked (or at least as favorable), including the keyboard layout." %}
 
@@ -294,7 +308,7 @@ Let's start with my personal criteria:
 |-|-|
 | Usage | Working & Graphics intensive [^5] |
 | Sreen size | 15' |
-| Sreen resolution | FHD/1080p [^6] |
+| Sreen resolution | FHD/1080p |
 | Autonomy | >= 3-4h when not using the GPU |
 | Budget | <= 1500€ |
 | Keyboard layout | Azerty |
@@ -307,21 +321,17 @@ The desired usage (deep learning), as mentioned previously, brings about more te
 - RAM capacity: >= 16Gb
 - Storage type: SSD
 
-I live in France, so I use the following websites for my initial search:
-- [LDLC](https://www.ldlc.com/)
-- [FNAC](https://www.fnac.com/)
-- [CDiscount](https://www.cdiscount.com/)
-- [Amazon](https://www.amazon.fr/)
+I live in France, so I used the following websites for my initial search: [LDLC](https://www.ldlc.com/), [FNAC](https://www.fnac.com/), [CDiscount](https://www.cdiscount.com/), and [Amazon](https://www.amazon.fr/).
 
-After setting those filters, here is what I ended up with in May 2022:
-- Acer Nitro 5
-- Acer Predator Helios 300
-- Asus Dash
-- Dell G15
-- Lenovo Legion 5i
-- MSI GF66
+After setting those filters in May 2022, here is what I ended up with:
+- [Acer Nitro 5](https://www.acer.com/ac/en/US/content/series/nitro5)
+- [Acer Predator Helios 300](https://www.acer.com/ac/en/US/content/predator-series/predatorhelios300)
+- [Asus TUF Dash F15](https://www.asus.com/fr/Laptops/For-Gaming/TUF-Gaming/2021-ASUS-TUF-Dash-F15/)
+- [Dell G15](https://deals.dell.com/fr-fr/productdetail/eedb)
+- [Lenovo Legion 5i](https://www.lenovo.com/fr/fr/laptops/legion-laptops/legion-5-series/Legion-5i-15/p/88GMY501434)
+- [MSI GF66](https://fr.msi.com/Laptop/Katana-GF66-11UX)
 
-{% include info.html text="Quick advice: if you put the price as a filter, add 20-30% in your filter, because there might be discounts on other retailing websites." %}
+{% include info.html text="Tip: if you put the price as a filter, add 20-30%, because there might be discounts on other retailing websites." %}
 
 
 ### Take a closer look
@@ -339,30 +349,28 @@ Let's take a look at my criteria that don't fit in a search filter:
 | Wifi card | >= 11ac |
 | OS compatibility | Ubuntu |
 
-{% include youtube.html content='https://www.youtube.com/embed/Bq1NPvqI91w' %}
-To speed up the process a bit, I looked for a comparison of best laptops. Thanks to this review, I listed out:
-- Acer Nitro 5 & Acer Helios (GPU, RAM & screen quality)
-- MSI GF66 (terrible battery)
+To speed up the process a bit, I looked for a comparison video of best recent laptops in this category. Thanks to this [review](https://www.youtube.com/watch?v=Bq1NPvqI91w), I ruled out Acer Nitro 5 & Acer Helios (GPU, RAM & screen quality), and the MSI GF66 (terrible battery).
 
-which leaves me with (presumably already very good options):
-- Dell G15 5520
-- Lenovo Legion 5i
+Which left me with (presumably already very good options):
+- [Dell G15 5520](https://deals.dell.com/fr-fr/productdetail/eedb)
+- [Lenovo Legion 5i](https://www.lenovo.com/fr/fr/laptops/legion-laptops/legion-5-series/Legion-5i-15/p/88GMY501434)
 
 
 ### Final showdown
 
 Especially when two laptops are similar, there is a high probability that a detailed comparison video exists!
 {% include youtube.html content='https://www.youtube.com/embed/kRjyxh9AG1w' %}
-Takeaways:
+Comparison takeaways:
 - 165Hz is much better
 - wifi much faster on G15
 - battery better on G15
 - similar in terms of GPU perf
 - both very good laptops
+- those are AMD Ryzen versions, so we'll have to compare the Intel CPUs ourselves
 
 Let's gather up all the important information and add the [CPU Mark](https://www.cpubenchmark.net/compare/Intel-i7-12700H-vs-Intel-i7-11800H-vs-Intel-i5-12500H/4721vs4358vs4750) using online benchmarks.
 
-| | Dell G15 5520 | Lenovo Legion 5i (6th gen) | Lenovo Legion 5i (7th gen) |
+| | [Dell G15 5520](https://deals.dell.com/fr-fr/productdetail/eedb) | [Lenovo Legion 5i (6th gen)](https://www.lenovo.com/fr/fr/laptops/legion-laptops/legion-5-series/Legion-5i-Gen-6-15''-Intel/p/LEN101G0001) | [Lenovo Legion 5i (7th gen)](https://www.lenovo.com/fr/fr/laptops/legion-laptops/legion-5-series/Legion-5i-Gen-7-15-inch-Intel/p/LEN101G0016) |
 |-|-|-|-|
 |Price| 1499€ | 1399€ | 1499€|
 |CPU| Intel Core i7 12700H | Intel Core i7 11800H | Intel Core i5 12500H|
@@ -375,17 +383,7 @@ Let's gather up all the important information and add the [CPU Mark](https://www
 |Battery| 86Wh (6 cells) | 60Wh (4 cells) | 80Wh (4 cells)|
 |Weight| 2.6kg | 2.4kg | 2.4kg |
 
-The screen refresh rate, RAM and battery rule out the Lenovo 6th gen.
-
-Let's know only keep the specs that are different:
-
-| | Dell G15 5520 | Lenovo Legion 5i (7th gen) |
-|-|-|-|
-|CPU Mark| 27642 | 23224 |
-|Wifi| 11ax | 11ac|
-|Battery| 86Wh (6 cells) | 80Wh (4 cells)|
-
-On those 3 aspects, the Dell G15 is superior, so that will be my pick!
+The screen refresh rate, RAM and battery rule out the Lenovo 6th gen. And on the remaining specs that differ between the two contenders (CPU Mark, Wifi, Battery), the Dell G15 is superior, so that will be my pick!
 
 
 ### Confirm the choice
@@ -394,7 +392,7 @@ Let's run down the checklist:
 - Dell is an established & reputed laptop manufacturers, and the reviews are excellent
 - the CPU is actually the best mobile CPU on the market at the moment (May 2022)
 <details>
-  <summary>Intel Core 11th and 12th gen</summary>
+  <summary>Note: Intel Core 11th and 12th gen</summary>
 
   {% include youtube.html content='https://www.youtube.com/embed/i9Dy_1SSw2U' %}
   You may have noticed the difference in CPU Mark between the i7 11800H (11th gen) and i5 12500H (12th gen), which is only an i5. With their new generation of CPUs, Intel is aiming at power efficiency. Remember the physical cores of the CPU? Now your chip will onboard two types: P-cores (performance), and E-cores (efficiency). The appropriate core type will be selected dynamically to get you the best performance/battery life balance.
@@ -403,19 +401,19 @@ Let's run down the checklist:
 
 - the GPU is among the best ranked mobile GPUs
 <details>
-  <summary>Compare with your previous laptop</summary>
+  <summary>Tip: compare with your previous laptop</summary>
 
   Out of safety, I <a href="https://gpu.userbenchmark.com/Compare/Nvidia-RTX-3060-Laptop-vs-Nvidia-RTX-2070-Mobile-Max-Q/m1452971vsm703511">compared the performances</a> of this GPU with my last profesionnal laptop, a Razer Blade 15, NVIDIA RTX 2070 Max Q. It outperforms it by 8-12% on all aspects, while the price being much lower (1499€ for the Dell G15, while the Razer Blade was 2200€ and the end of 2020 when it was purchased). I did the comparison because performance-wise, I was very happy with that previous laptop.
 
 </details>
 
-- let's check a few laptop reviews:
+- let's check a few laptop reviews
 <details>
   <summary>Review 1</summary>
 
   {% include youtube.html content='https://www.youtube.com/embed/Ej_mgN25a_I' %}
 
-  Takeaways:<br>
+  Review takeaways:<br>
   - SSD & RAM are upgradable<br>
   - very good value for money in terms of perf thanks to 12th gen Intel CPU<br>
   - very good screen quality<br>
@@ -428,7 +426,7 @@ Let's run down the checklist:
 
   {% include youtube.html content='https://www.youtube.com/embed/m5to9qZwaDk' %}
 
-  Takeaways:<br>
+  Review takeaways:<br>
   - the laptop is a bit heavy<br>
   - very nice screen<br>
   - good keyboard<br>
@@ -442,7 +440,7 @@ Let's run down the checklist:
 </details>
 
 <details>
-  <summary>MUX Switch</summary>
+  <summary>Advanced note: MUX Switch</summary>
   
   So this is a concept I discovered while benchmarking a few weeks back, an quite an interesting one, especially if you're using your laptop for Gaming!
 
@@ -456,15 +454,15 @@ Let's run down the checklist:
   
 </details>
 
-No red flags, so the choice is confirmed!
+No red flags, so the choice is confirmed :rocket:
 
 
 ## Final tips to get the best out of your laptop
 
 ### Help your heat management hardware
-Your CPU & GPU heat your laptop up, and your fans speed up whenever the measured internal temperature gets higher to balance this. When you put your laptop on cloth for instance, as it's partially obstructed, your fans will speed up even more. This has two consequences:
-- reducing the life of your fans (they will operate much faster than without obstruction for the same usage)
-- endangering internal components (if the temperatures are too high, that will degrade hardware prematurely)
+Your CPU & GPU heat your laptop up, and your fans speed up whenever the measured internal temperature gets higher to balance this. When you put your laptop on cloth for instance, as it's partially obstructed, your fan will speed up even more. This has two consequences:
+- reducing the life of your fans (they will operate much faster than without obstruction, for the same usage)
+- endangering internal components (if the temperature gets too high, that will degrade hardware components prematurely)
 
 ![heat-wanted](https://media4.giphy.com/media/bVoflcc4kidaM/giphy.gif?cid=ecf05e47qlqb1hk1fupa01t51owbr4fijvq4zxornbq6l0vx&rid=giphy.gif&ct=g)
 
@@ -474,7 +472,7 @@ What can you do for this?
 
 ### A good night sleep for everyone
 
-When you go to bed, consider shutting down your laptop instead of clapping it/putting it to sleep. Simply put, while in sleep mode, your hardware is sollicitated more than when shut down (remember, it's not shut down so the RAM is loaded with data among others). If you put it to sleep, that will reduce its life expectancy.
+When you go to bed, consider shutting down your laptop instead of clapping it/putting it to sleep :sleeping: Simply put, while in sleep mode, your hardware is sollicitated more than when shut down (remember, it's not shut down so the RAM is loaded with data among others). If you put it to sleep, that will reduce its life expectancy.
 
 ### Minimizing the number of charge cycles
 
@@ -489,11 +487,10 @@ When plugged, you sollicitate:
 
 ![thats-all-folks](https://media3.giphy.com/media/lD76yTC5zxZPG/giphy.gif?cid=ecf05e477c8s5rct86yltjz5cmmfdcl2icck93gxb8ufrk08&rid=giphy.gif&ct=g)
 
-Bravo, you've made it here! Hopefully, you learnt a few things while reading this article, which still has a lot of room for improvements. 
+Bravo, you've made it here! Hopefully, you learnt a few things while reading this article, which still has a lot of room for improvements. If you spotted some imprecisions, mistakes, or if you have improvement ideas, please let me know!
 
-[^]:it might even be worse because the video will be upsampled upon rendering.
+[^1]:it might even be worse because the video will be upsampled upon rendering.
 [^2]:some manufacturers, like Apple, don't let people easily tweak the inside of their laptops.
 [^3]:modern laptops will have an integrated GPU (iGPU), when they don't have a dedicated GPU (dGPU). Usually the iGPU brand is the same as the CPU's manufacturer.
-[^4]:note: CPU generation is very important. For instance, Intel Core i5 12th gen >= i7 11th gen.
+[^4]:CPU generation can be more important than the model type. For instance, Intel Core i5 12th gen are more powerful than i7 11th gen.
 [^5]:I would be using it for Deep Learning more specifically.
-[^6]:corresponds to 1920 by 1080 pixels, also called FHD (Full High Definition).
