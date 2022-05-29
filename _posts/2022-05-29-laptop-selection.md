@@ -28,6 +28,13 @@ What this article is not about:
 
 {% include info.html text="Resources and products shown here are used as examples, I have no affiliation of any kind with any of those." %}
 
+<details>
+  <summary>Click here :point_left: </summary>
+
+  To avoid putting too much information for casual readers, advanced topics will be hidden in those collapsible sections. Click on them to expand it if you want additional details!
+
+</details>
+
 ---
 
 ## How are we going to compare this
@@ -65,7 +72,7 @@ To compare storage options, consider their storage capacity (measured in Gigabyt
 
   HDD are spinning disks, similar to vinyl record/CD, with two layers: a ferromagnetic layer, where data is stored, and a protective layer. The data interactions are performed by a read/write head (actuator arm), by leveraging the relation between electric current and local magnetic field.<br><br>
 
-  For SSDs, forget the spinning disk, each byte of information is written on <a href="https://en.wikipedia.org/wiki/MOSFET">MOS transistors</a>. Thanks to the general trend of transistor density in manufacturing (cf. <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore law</a>), we can now fit quite a lot of those on an integrated circuit.
+  SSDs don't have any disk, and each byte of information is written on <a href="https://en.wikipedia.org/wiki/MOSFET">MOS transistors</a>. Thanks to the general trend of transistor density in manufacturing (cf. <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore law</a>), we can now fit quite a lot of those on an integrated circuit.
 
 </details>
 
