@@ -1,6 +1,6 @@
 ---
 title: How to choose your new laptop
-description: Let's explore together how accessible it is for anyone to efficiently select the best laptop for its needs.
+description: Let's explore together how accessible it is for anyone to efficiently select the best laptop for their needs.
 comments: true
 hide: false
 toc: false
@@ -192,7 +192,7 @@ Alright, what is the refresh rate now? It is the maximum number of times a pixel
 <details>
   <summary>Matte vs. glossy</summary>
 
-  especially, if you are using your laptop outside regularly, try to get a matte display. Otherwise the reflection might be disturbing in bright environments with a glossy display. Worth checking the difference over <a href="https://www.youtube.com/watch?v=qh7EmbwQU-I">here</a> [here](https://www.youtube.com/watch?v=qh7EmbwQU-I).
+  especially, if you are using your laptop outside regularly, try to get a matte display. Otherwise the reflection might be disturbing in bright environments with a glossy display. Worth checking the difference over <a href="https://www.youtube.com/watch?v=qh7EmbwQU-I">here</a>.
 
 </details>
 
@@ -257,7 +257,7 @@ Here we're trying to find a few good laptop options with minimal investigation t
 | CPU | Intel Core, AMD Ryzen | Whatever fits your budget and gets you the best performance [^3] |
 | RAM capacity | 4Gb, 8Gb, 16Gb, 32Gb | >= 8Gb |
 | Storage type | HDD, SSD | HDD is you can afford it (it's a must-have for deep learning) |
-| Storage capacity | 256Gb, 512Gb, 1T, etc. | >= 512Gb |
+| Storage capacity | 256Gb, 512Gb, 1Tb, etc. | >= 512Gb |
 | Price | N/A | Up to you |
 
 <details>
@@ -389,12 +389,12 @@ Let's gather up all the important information and add the [CPU Mark](https://www
 |GPU| NVIDIA RTX 3060 | NVIDIA RTX 3060 | NVIDIA RTX 3060|
 |Screen| FHD, 165Hz | FHD, 120Hz | FHD, 165Hz|
 |Storage| SSD, 512Go | SSD, 512Go | SSD, 512Go|
-|RAM| 16Go 4800MHz, dual channel | 16Go, 3200Mhz, single channel | 16Go 4800Mhz, dual channel|
+|RAM| 16Go, 4800MHz, dual channel | 16Go, 3200Mhz, single channel | 16Go, 4800Mhz, dual channel|
 |Wifi| 11ax | 11ax | 11ac|
 |Battery| 86Wh (6 cells) | 60Wh (4 cells) | 80Wh (4 cells)|
 |Weight| 2.6kg | 2.4kg | 2.4kg |
 
-The screen refresh rate, RAM and battery rule out the Lenovo 6th gen. And on the remaining specs that differ between the two contenders (CPU Mark, Wifi, Battery), the Dell G15 is superior, so that will be my pick!
+The screen refresh rate, RAM and battery rule out the Lenovo 6th gen. And on the remaining specs that differ between the two contenders (CPU Mark, wifi, battery), the Dell G15 is superior, so that will be my pick!
 
 
 ### Confirm the choice
