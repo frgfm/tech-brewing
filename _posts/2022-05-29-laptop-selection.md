@@ -1,6 +1,6 @@
 ---
 title: How to choose your new laptop
-description: Getting the right knowledge and tools to easily select your new laptop.
+description: Let's explore together how accessible it is for anyone to efficiently select the best laptop for its needs.
 comments: true
 hide: false
 toc: false
@@ -15,14 +15,14 @@ Feeling like a colorblind person being asked to choose the red balloon when sele
 
 ![cat-typing](https://media2.giphy.com/media/aNqEFrYVnsS52/giphy.gif?cid=790b76110bc8301ab8d1364278f76e6744830cc3678964af&rid=giphy.gif&ct=g)
 
-First off: I'm not a laptop expert and my background is not in laptop hardware. Nevertheless, I had to purchase laptops for different purposes and different price ranges over the last 10-15 years, and thus I became quite thorough about benchmarking my options. Since I had to recently go through this process again, I thought I'd share how you can easily benchmark and choose the best laptop for your needs without much prior knowledge.
+First off: I'm not a laptop expert and my background is not in laptop hardware. Nevertheless, I had to purchase laptops for different purposes and different price ranges over the last 10-15 years, and thus I became quite thorough about benchmarking my options :nerd_face: Since I had to recently go through this process again, I thought I'd share how you can easily benchmark and choose the best laptop for your needs without much prior knowledge.
 
 
-What this article is about:
+:white_check_mark: What this article is about:
 - main aspects of laptop comparison
 - key aspects to easily get the best deal
 
-What this article is not about:
+:x: What this article is not about:
 - telling you which laptop to buy right now
 - incentivizing products or services of any kind
 
@@ -39,11 +39,9 @@ What this article is not about:
 
 ## How are we going to compare this
 
-Let's lay down a few things you should be aware of to be methodical here.
-
 ### What is there to balance?
 
-Here we'll consider four main aspects: performance :zap:, autonomy :hourglass_flowing_sand:, price :euro:, weight :weight_lifting:
+Here we'll consider four main aspects: performance :zap:, autonomy :hourglass_flowing_sand:, price :euro:, weight :muscle:
 
 To elaborate a bit on the first aspect, "performance" has two sides:
 - what produces pure performance: data read/write speed, data processing speed.
@@ -51,21 +49,23 @@ To elaborate a bit on the first aspect, "performance" has two sides:
 
 ## Main laptop components
 
-Performance-wise, the following concepts are very important as they define how you will experience your laptop (taking ages to open a single file :turtle: vs. feeling like your laptop is always waiting on you :sunglasses:).
+The following concepts are very important as they define how you will experience your laptop (taking ages to open a single file :turtle: vs. feeling like your laptop is always waiting on you :sunglasses:).
 
 ### Memory
 
 For computers, we distinguish storage (things that remains saved even after shutting down your laptop) from RAM (information currently being used by your computer to perform a task at a given moment).
 
-{% include info.html text="RAM stands for Random Access Memory, which isn't very explicit. The French name is more self-explanatory 'mémoire vive' which translates to 'quick/vivacious memory'." %}
+{% include info.html text="RAM stands for Random Access Memory, but the French name is more self-explanatory 'mémoire vive' which translates to 'quick/vivacious memory'." %}
 
 #### Storage
 
-When using your file explorer, the files that you see are located on your storage device. The information is written in this device so that when powered off, the data prevails.
+The information is written in this device so that when powered off, the data prevails. When using your file explorer, the files that you see are located on your storage device.
 
 ![hdd-versus-ssd](https://microage.ca/quebec/wp-content/uploads/sites/56/bb-plugin/cache/hard-drive-ssd-1-landscape.jpg)
 
-To compare storage options, consider their storage capacity (measured in Gigabytes/Gb or Gigaoctets/Go) and their read/write speed. Without getting too technical, among the two main storage types, HDD (Hard Disk Drive) and SSD (Solid State Drive), SSDs are considerably faster but more expensive.
+To compare storage options, consider their:
+- storage capacity: a few hundreds of gigabytes (Gb) in 2022.
+- storage type: HDD (Hard Disk Drive) or the faster but more expensive SSD (Solid State Drive).
 
 <details>
   <summary>HDD vs. SSD</summary>
@@ -92,12 +92,12 @@ To compare storage options, consider their storage capacity (measured in Gigabyt
 
 ![ram](https://www.crucial.fr/content/dam/crucial/dram-products/laptop/images/web/crucial-ddr4-sodimm-kit-w-shadow-image.psd.transform/small-jpg/img.jpg)
 
-Conversely to storage, RAM is volatile: the data stored will be lost if it's powered down. On a computer, you sollicitate the RAM as you open more web browser tabs or applications for instance. In terms of speed, SSDs can't even compete with RAM, but RAM is much more limited in terms of capacity (as of 2022, usually a few Gb or dozens of Gb, while storage capacity is roughly two orders of magnitude larger).
+Conversely to storage, RAM is volatile: the data stored will be lost if it's powered down. On a computer, you sollicitate the RAM as you open more web browser tabs or applications for instance. It is much faster than storage, but much more limited in terms of capacity (a few gigabytes up to a dozen in 2022).
 
 <details>
   <summary>RAM in-depth look</summary>
 
-  There are two technical indicators for RAM:<br>
+  There are two other technical indicators for RAM:<br>
   - RAM frequency: number of cycles per second (DDR4 RAM ranges from 1600 to 3600 MHz, while DDR5 ranges from 3200 to 6400 MHz).<br>
   - Column Access Strobe Latency (CL): number of clock cycles it takes for the RAM to respond to a command.<br>
 
@@ -118,7 +118,7 @@ Alright, we're now into the core of a computer horsepower: its processing units!
 
 #### CPU
 
-Every personal computers has a Central Processing Unit (CPU). This component has several physical cores, that can process information independently. The number of physical cores is however limited, so while it can perform multi-tasking, it's optimized for sequential tasks.
+Every personal computers has a **Central Processing Unit (CPU)**. This component has several physical cores, that can process information independently. The number of physical cores is however limited, so while it can perform multi-tasking, it's **optimized for sequential tasks**.
 
 <details>
   <summary>Key specifications of a CPU</summary>
@@ -135,9 +135,9 @@ That may not sound very appealing, right? Fortunately there are multiple online 
 
 #### GPU
 
-A Graphical Processing Unit (GPU) is optimized for parallel operations. In 3D rendering or gaming, the computer needs to perform computation for each pixel (position, texture, lighting, etc.). Each of those pixel computations is independent, in the sense, that two neighbouring pixels don't need the RGB value of their neighbour to compute theirs.
+A **Graphical Processing Unit (GPU)* is optimized for parallel operations**. In 3D rendering or gaming, the computer needs to perform computation for each pixel (position, texture, lighting, etc.). Each of those pixel computations is independent, in the sense, that two neighbouring pixels don't need the RGB value of their neighbour to compute theirs.
 
-If we leave it up to the CPU to do this, as mentioned, the task parallelisation is quite limited. While CPU cores are more powerful, a modern GPU has several thousands of weaker ones, that's why it's well suited for this type of tasks.
+If we leave it up to the CPU to do this, as mentioned, the task parallelisation is quite limited. While CPU cores are more powerful, a modern GPU has several thousands of weaker ones, that's why it's well suited for this type of tasks :joystick:
 
 <details>
   <summary>Key specifications of a GPU</summary>
@@ -167,14 +167,20 @@ For your screen, there are three main aspects to consider: size, native resoluti
 
 #### Screen size
 
-Depending on your usage, you might have different preferences. Bigger screens are nicer for media and gaming, but the laptop becomes heavier. The current industry usually proposes 3 main otions: 13', 15' or 17' (number of inches along the diagonal of the display).
+Depending on your usage, you might have different preferences. Bigger screens are nicer for media and gaming, but the laptop becomes heavier. The current industry usually proposes 3 main options: 13', 15' or 17' (number of inches along the diagonal of the display).
 
 #### Native resolution
 ![screen-resolution](images/screen-resolution.png)
 
-If you have spend a bit of time on video platforms such as YouTube, you may remember the quality settings of videos (1080p, 720p, etc.). As shown in the illustration above, you will find the dominant video quality settings on the market nowadays. 
+The native resolution is the number of pixels along each side of the display (that is 1920 pixels wide and 1080 pixels high for a Full-HD screen). As illustrated above, the market is nowadays dominated by FHD, QHD and UHD displays.
 
-Why am I showing this? If you're using your laptop for media, and your movies are all in FHD (1080p), going for a laptop with QHD or UHD native resolution will cost you a lot more and won't change anything to your viewing [^1]. You get optimal results when your screen **native resolution** (number of physical pixels on each side of your screen) matches the resolution of the media you are watching, and that also applies to gaming.
+<details>
+  <summary>FHD vs. UHD</summary>
+
+  If you're using your laptop for media, and your movies are all in FHD (1080p), going for a laptop with QHD or UHD native resolution will cost you a lot more and won't change anything to your viewing (it might even be worse because the video will be upsampled upon rendering). You get optimal results when your screen native resolution matches the resolution of the media you are watching, and that also applies to gaming.
+
+</details>
+
 
 #### Refresh rate
 
@@ -182,7 +188,13 @@ Alright, what is the refresh rate now? It is the maximum number of times a pixel
 
 ![agt-shocked](https://media4.giphy.com/media/urJSN8TN5o5A4/giphy.gif?cid=790b7611d93d6cfb9206bbee5fe2c903d26528e5c06dc304&rid=giphy.gif&ct=g)
 
-One last thing: especially, if you are using your laptop outside regularly, try to get a matte display. Otherwise the reflection might be disturbing in bright environments with a glossy display. Worth checking the difference over [here](https://www.youtube.com/watch?v=qh7EmbwQU-I).
+
+<details>
+  <summary>Matte vs. glossy</summary>
+
+  especially, if you are using your laptop outside regularly, try to get a matte display. Otherwise the reflection might be disturbing in bright environments with a glossy display. Worth checking the difference over <a href="https://www.youtube.com/watch?v=qh7EmbwQU-I">here</a> [here](https://www.youtube.com/watch?v=qh7EmbwQU-I).
+
+</details>
 
 
 ### Sum-up
@@ -220,12 +232,12 @@ You can always have multiple usage for your laptop, but I highly suggest you tak
 
 ### Before buying, why not upgrade?
 
-If you already own a laptop, it might be worth checking whether it's possible to change some parts that would have a significant influence on performances.
+If you already own a laptop, it's possible to change some parts to boost performances without buying a new one.
 
-What you can generally upgrade/replace[^2]:
-- RAM: if sometimes your computer freezes temporarily, you might want to switch to a larger RAM capacity.
-- Storage: you don't have anymore room on your laptop? You can replace it with a larger one. Transferring or reading data is really slow? You can upgrade your HDD with an SSD.
-- Battery: if your laptop lasts doesn't last as half as long as it used to, consider replacing the battery.
+What you can generally upgrade/replace[^1]:
+- **RAM**: if sometimes your computer freezes temporarily, you might want to switch to a larger RAM capacity.
+- **Storage**: you don't have anymore room on your laptop? You can replace it with a larger one. Transferring or reading data is really slow? You can upgrade your HDD with an SSD.
+- **Battery**: if your laptop lasts doesn't last as half as long as it used to, consider replacing the battery.
 
 {% include info.html text="Especially for battery, it is highly recommended to replace it with one that has the same specifications! Search for your model name appended with 'battery'." %}
 
@@ -241,8 +253,8 @@ Here we're trying to find a few good laptop options with minimal investigation t
 |-|-|-|
 | Screen size | 13', 15', 17' | Up to you |
 | Screen resolution | FHD/1080p, QHD/2k, UHD/4k | FHD is enough, the rest is up to you |
-| GPU Y/N | None [^3], AMD Radeon, NVIDIA GeForce | Only gaming and graphics really need a GPU. Compatibility-wise, deep learning require NVIDIA products for now. |
-| CPU | Intel Core, AMD Ryzen | Whatever fits your budget and gets you the best performance [^4] |
+| GPU Y/N | None [^2], AMD Radeon, NVIDIA GeForce | Only gaming and graphics really need a GPU. Compatibility-wise, deep learning require NVIDIA products for now. |
+| CPU | Intel Core, AMD Ryzen | Whatever fits your budget and gets you the best performance [^3] |
 | RAM capacity | 4Gb, 8Gb, 16Gb, 32Gb | >= 8Gb |
 | Storage type | HDD, SSD | HDD is you can afford it (it's a must-have for deep learning) |
 | Storage capacity | 256Gb, 512Gb, 1T, etc. | >= 512Gb |
@@ -275,11 +287,10 @@ Once you've exhausted the search filters, we're going to have to take a closer l
 Okay, now you should be hesitating between a few laptops. How do you find the best one for you?
 
 Here is a quick checklist:
-- check the manufacturer & product line current reputation (if they have very bad reviews and sales, this product line might disappear in the near future)
-- compare the CPUs using online benchmarks (on the product page, copy paste the CPU model in the search bar of the website)
+- check the manufacturer & product line current reputation [^4]
+- compare the CPUs using online benchmarks [^5]
 - if there is one, compare the GPUs using online benchmarks.
-- watch 2-3 **recent** reviews or comparison videos about those models (only look out for red flags). YouTube channels (e.g. [JarrodsTech](https://www.youtube.com/c/JarrodsTech), [MatthewMoniz](https://www.youtube.com/c/MatthewMoniz1), [LinusTechTips](https://www.youtube.com/c/LinusTechTips)) can be very useful.
-
+- watch 2-3 **recent** reviews or comparison videos [^6] about those models (only look out for red flags).
 
 ### Where to buy it
 
@@ -293,7 +304,7 @@ Now to get your hands on it, at the best price, you should check:
 - your favorite tech product store's website
 - searching for that model on a search engine (yes, please do, you might be able to save a lot with a deal that you missed)
 
-{% include alert.html text="For each laptop model, there might be multiple manufacturer configurations. Ensure that your selection is the same as the one you just benchmarked (or at least as favorable), including the keyboard layout." %}
+{% include alert.html text="For each laptop model, there might be multiple manufacturer configurations. Ensure that your selection is the same as the one you just benchmarked!" %}
 
 
 ## A concrete example
@@ -306,7 +317,7 @@ Let's start with my personal criteria:
 
 | Criteria | Value |
 |-|-|
-| Usage | Working & Graphics intensive [^5] |
+| Usage | Working & Graphics intensive [^7] |
 | Sreen size | 15' |
 | Sreen resolution | FHD/1080p |
 | Autonomy | >= 3-4h when not using the GPU |
@@ -390,7 +401,7 @@ The screen refresh rate, RAM and battery rule out the Lenovo 6th gen. And on the
 
 Let's run down the checklist:
 - Dell is an established & reputed laptop manufacturers, and the reviews are excellent
-- the CPU is actually the best mobile CPU on the market at the moment (May 2022)
+- the CPU is actually the best mobile CPU on the market at the moment :1st_place_medal: (May 2022)
 <details>
   <summary>Note: Intel Core 11th and 12th gen</summary>
 
@@ -399,7 +410,7 @@ Let's run down the checklist:
 
 </details>
 
-- the GPU is among the best ranked mobile GPUs
+- the GPU is among the best ranked mobile GPUs :3rd_place_medal:
 <details>
   <summary>Tip: compare with your previous laptop</summary>
 
@@ -460,9 +471,9 @@ No red flags, so the choice is confirmed :rocket:
 ## Final tips to get the best out of your laptop
 
 ### Help your heat management hardware
-Your CPU & GPU heat your laptop up, and your fans speed up whenever the measured internal temperature gets higher to balance this. When you put your laptop on cloth for instance, as it's partially obstructed, your fan will speed up even more. This has two consequences:
-- reducing the life of your fans (they will operate much faster than without obstruction, for the same usage)
-- endangering internal components (if the temperature gets too high, that will degrade hardware components prematurely)
+Your CPU & GPU heat your laptop up, and your fans speed up whenever the measured internal temperature gets higher to balance this. When you put your laptop on cloth for instance, as it's partially obstructed, your fan will speed up even more :thermometer: This has two consequences:
+- reducing the life of your fans: *they will operate much faster than without obstruction, for the same usage*.
+- endangering internal components: *if the temperature gets too high, that will degrade hardware components prematurely*.
 
 ![heat-wanted](https://media4.giphy.com/media/bVoflcc4kidaM/giphy.gif?cid=ecf05e47qlqb1hk1fupa01t51owbr4fijvq4zxornbq6l0vx&rid=giphy.gif&ct=g)
 
@@ -479,18 +490,22 @@ When you go to bed, consider shutting down your laptop instead of clapping it/pu
 Some people say that leaving it plugged won't damage the battery well-being (same debate with smartphones), some say the opposite. I am no expert in charger and laptop battery manufacturing, but why take the risk?
 
 When plugged, you sollicitate:
-- your laptop charger, which could certainly benefit from not being powered on all the time
-- your laptop battery: rule of thumb, since we don't know for sure, if you don't need max perf and have a lot of battery, unplug it :+1:
+- your laptop charger
+- your laptop battery
+
+As a rule of thumb, since we don't know for sure, if you don't need max perf and have a lot of battery, unplug your charger :+1:
 
 
 ## The End
 
 ![thats-all-folks](https://media3.giphy.com/media/lD76yTC5zxZPG/giphy.gif?cid=ecf05e477c8s5rct86yltjz5cmmfdcl2icck93gxb8ufrk08&rid=giphy.gif&ct=g)
 
-Bravo, you've made it here! Hopefully, you learnt a few things while reading this article, which still has a lot of room for improvements. If you spotted some imprecisions, mistakes, or if you have improvement ideas, please let me know!
+Bravo, you've made it here! Hopefully, you learnt a few things while reading this article, which still has a lot of room for improvements. If you spotted some imprecisions, mistakes, or if you have improvement ideas, please let me know :grin:
 
-[^1]:it might even be worse because the video will be upsampled upon rendering.
-[^2]:some manufacturers, like Apple, don't let people easily tweak the inside of their laptops.
-[^3]:modern laptops will have an integrated GPU (iGPU), when they don't have a dedicated GPU (dGPU). Usually the iGPU brand is the same as the CPU's manufacturer.
-[^4]:CPU generation can be more important than the model type. For instance, Intel Core i5 12th gen are more powerful than i7 11th gen.
-[^5]:I would be using it for Deep Learning more specifically.
+[^1]:some manufacturers, like Apple, don't let people easily tweak the inside of their laptops.
+[^2]:modern laptops will have an integrated GPU (iGPU), when they don't have a dedicated GPU (dGPU). Usually the iGPU brand is the same as the CPU's manufacturer.
+[^3]:CPU generation can be more important than the model type. For instance, Intel Core i5 12th gen are more powerful than i7 11th gen.
+[^4]:if they have very bad reviews and sales, this product line might disappear in the near future.
+[^5]:on the product page, copy paste the CPU model in the search bar of the website.
+[^6]:YouTube channels (e.g. [JarrodsTech](https://www.youtube.com/c/JarrodsTech), [MatthewMoniz](https://www.youtube.com/c/MatthewMoniz1), [LinusTechTips](https://www.youtube.com/c/LinusTechTips)) can be very useful.
+[^7]:I would be using it for Deep Learning more specifically.
