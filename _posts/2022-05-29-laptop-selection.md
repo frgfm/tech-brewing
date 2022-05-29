@@ -180,7 +180,7 @@ One last thing: especially, if you are using your laptop outside regularly, try 
 
 ### Sum-up
 
-Time for a quick recap!
+With all this information, you deserve a quick recap!
 
 ![b99-noice](https://media4.giphy.com/media/26FPqAHtgCBzKG9mo/giphy.gif?cid=790b76118828610e5a6665ccea6b6370e5a9af76a2051141&rid=giphy.gif&ct=g)
 
@@ -359,6 +359,7 @@ Comparison takeaways:
 - battery better on G15
 - similar in terms of GPU perf
 - both very good laptops
+- those are AMD Ryzen versions, so we'll have to compare the Intel CPUs ourselves
 
 Let's gather up all the important information and add the [CPU Mark](https://www.cpubenchmark.net/compare/Intel-i7-12700H-vs-Intel-i7-11800H-vs-Intel-i5-12500H/4721vs4358vs4750) using online benchmarks.
 
