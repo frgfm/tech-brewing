@@ -55,7 +55,7 @@ The following concepts are very important as they define how you will experience
 
 For computers, we distinguish storage (things that remains saved even after shutting down your laptop) from RAM (information currently being used by your computer to perform a task at a given moment).
 
-{% include info.html text="RAM stands for Random Access Memory, which isn't very explicit. The French name is more self-explanatory 'mémoire vive' which translates to 'quick/vivacious memory'." %}
+{% include info.html text="RAM stands for Random Access Memory, but the French name is more self-explanatory 'mémoire vive' which translates to 'quick/vivacious memory'." %}
 
 #### Storage
 
@@ -137,7 +137,7 @@ That may not sound very appealing, right? Fortunately there are multiple online 
 
 A **Graphical Processing Unit (GPU)* is optimized for parallel operations**. In 3D rendering or gaming, the computer needs to perform computation for each pixel (position, texture, lighting, etc.). Each of those pixel computations is independent, in the sense, that two neighbouring pixels don't need the RGB value of their neighbour to compute theirs.
 
-If we leave it up to the CPU to do this, as mentioned, the task parallelisation is quite limited. While CPU cores are more powerful, a modern GPU has several thousands of weaker ones, that's why it's well suited for this type of tasks.
+If we leave it up to the CPU to do this, as mentioned, the task parallelisation is quite limited. While CPU cores are more powerful, a modern GPU has several thousands of weaker ones, that's why it's well suited for this type of tasks :joystick:
 
 <details>
   <summary>Key specifications of a GPU</summary>
@@ -401,7 +401,7 @@ The screen refresh rate, RAM and battery rule out the Lenovo 6th gen. And on the
 
 Let's run down the checklist:
 - Dell is an established & reputed laptop manufacturers, and the reviews are excellent
-- the CPU is actually the best mobile CPU on the market at the moment (May 2022)
+- the CPU is actually the best mobile CPU on the market at the moment :1st_place_medal: (May 2022)
 <details>
   <summary>Note: Intel Core 11th and 12th gen</summary>
 
@@ -410,7 +410,7 @@ Let's run down the checklist:
 
 </details>
 
-- the GPU is among the best ranked mobile GPUs
+- the GPU is among the best ranked mobile GPUs :3rd_place_medal:
 <details>
   <summary>Tip: compare with your previous laptop</summary>
 
@@ -471,7 +471,7 @@ No red flags, so the choice is confirmed :rocket:
 ## Final tips to get the best out of your laptop
 
 ### Help your heat management hardware
-Your CPU & GPU heat your laptop up, and your fans speed up whenever the measured internal temperature gets higher to balance this. When you put your laptop on cloth for instance, as it's partially obstructed, your fan will speed up even more. This has two consequences:
+Your CPU & GPU heat your laptop up, and your fans speed up whenever the measured internal temperature gets higher to balance this. When you put your laptop on cloth for instance, as it's partially obstructed, your fan will speed up even more :thermometer: This has two consequences:
 - reducing the life of your fans: *they will operate much faster than without obstruction, for the same usage*.
 - endangering internal components: *if the temperature gets too high, that will degrade hardware components prematurely*.
 
