@@ -146,7 +146,7 @@ That may not sound very appealing, right? Fortunately there are multiple online 
 
 #### GPU
 
-A **Graphical Processing Unit (GPU)* is optimized for parallel operations**. In 3D rendering or gaming, the computer needs to perform computation for each pixel (position, texture, lighting, etc.). Each of those pixel computations is independent, in the sense, that two neighbouring pixels don't need the RGB value of their neighbour to compute theirs.
+A **Graphical Processing Unit (GPU) is optimized for parallel operations**. In 3D rendering or gaming, the computer needs to perform computation for each pixel (position, texture, lighting, etc.). Each of those pixel computations is independent, in the sense, that two neighbouring pixels don't need the RGB value of their neighbour to compute theirs.
 
 If we leave it up to the CPU to do this, as mentioned, the task parallelisation is quite limited. While CPU cores are more powerful, a modern GPU has several thousands of weaker ones, that's why it's well suited for this type of tasks :joystick:
 
@@ -249,19 +249,19 @@ You can always have multiple usage for your laptop, but I highly suggest you tak
 
 ### Do I need a dedicated GPU?
 
-For media and working usages, you can skip this section :thumbsup:
+For media and working usages, you can [skip this section](#benchmark--selection-process) :thumbsup:
 
 #### Gaming
 
-If you are the type of person wants only tolerates "Ultra" graphics settings, you should be aware that video games maximum settings have rapidly evolving hardware requirements. That means that you might need to update some components soon (you should be good for 2 years at least still). In that case, perhaps consider a desktop computer as your laptop will be have a limited number of components that you can replace :shrug:
+If you are the type of person wants only tolerates "Ultra" graphics settings, you should be aware that video games maximum settings have rapidly evolving hardware requirements. That means that you might need to update some components soon (you should be good for 2 years at least still). In that case, perhaps consider a desktop computer as your laptop will be have a limited number of components that you can replace :cry:
 
 If you have a looser tolerance for graphics settings, or you simply want to be able to play in the train, don't go for the most expensive GPU. You can find decently-powerful mobile GPUs at better price :wink:
 
 <details>
   <summary>Modern GPU features</summary>
 
-  <img src="https://i.ytimg.com/vi/F4HkXEzzcRw/maxresdefault.jpg" alt="RTX"/><br><br>  
-  
+  <img src="https://i.ytimg.com/vi/F4HkXEzzcRw/maxresdefault.jpg" alt="RTX"/><br>
+
   You care about graphics quality and frame rate, right? Whether you go for AMD Radeon or NVIDIA GeForce products, there are two modern features you should be chasing:<br>
   - <a href="https://www.youtube.com/watch?v=xPTjQ59gbJo">Ray tracing</a>: the rendering is done by tracing the path of light and its interaction, instead of performing rasterization (converting 3D graphics into 2D pixels thanks to shaders).<br>
   - <a href="https://www.nvidia.com/fr-fr/geforce/technologies/dlss/">DLSS</a> / <a href="https://www.amd.com/en/technologies/fidelityfx-super-resolution">FSR</a>: the GPU will oversample the rendering (spatially and temporarily) using Deep Learning to boost the FPS.<br><br>
@@ -395,8 +395,8 @@ Let's start with my personal criteria:
 
 
 The desired usage (deep learning), as mentioned previously, brings about more technical constraints:
-- GPU: a powerful NVIDIA mobile GPU, of recent generations (RTX 20 or 30), with VRAM >= 6Gb [^8].
-- CPU: a powerful CPU, either an Intel Core 12th gen (>= i5) or 11th gen (>= i7), or an AMD Ryzen 6k series (>=5) or 5k series (>= 7).
+- GPU: a powerful NVIDIA mobile GPU, of recent generations (RTX [20 series](https://www.nvidia.com/fr-fr/geforce/20-series/) or [30 series](https://www.nvidia.com/fr-fr/geforce/graphics-cards/30-series/)), with VRAM >= 6Gb [^8].
+- CPU: a powerful CPU, either an Intel Core [12th gen](https://www.intel.com/content/www/us/en/products/docs/processors/core/12th-gen-processors.html) (>= i5) or [11th gen](https://www.intel.com/content/www/us/en/products/docs/processors/core/11th-gen-processors.html) (>= i7), or an [AMD Ryzen](https://www.amd.com/en/processors/ryzen) 6k series (>=5) or 5k series (>= 7).
 - RAM capacity: >= 16Gb
 - Storage type: SSD
 
