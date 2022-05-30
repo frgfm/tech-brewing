@@ -131,7 +131,18 @@ Every personal computers has a **Central Processing Unit (CPU)**. This component
 
 ![fascinating](https://media3.giphy.com/media/4LwKrBfFQgBaw/giphy.gif?cid=790b76114abee4be7adcad307d3b666aaa2a4c05a8c7bb8f&rid=giphy.gif&ct=g)
 
-That may not sound very appealing, right? Fortunately there are multiple online benchmarks that compare CPUs for you, and provide an aggregate performance score that you can reliably use for your own comparison (e.g. [CPU Benchmark](https://www.cpubenchmark.net/))
+That may not sound very appealing, right? Fortunately there are multiple online benchmarks that compare CPUs for you, and provide an aggregate performance score that you can reliably use for your own comparison (e.g. [CPU Benchmark](https://www.cpubenchmark.net/)).
+
+
+<details>
+  <summary>Apple and its specific hardware</summary>
+
+  As far as operating systems go, gamers are restricted to Windows (generally speaking). But for the rest, is there any constraint? Most laptop manufacturers have similar or compatible hardware architectures, on which you can easily use Windows or Linux. But it's a different story for Apple and its Mac laptops.<br><br>
+
+  You might have heard but in November 2020, <a href="https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/">Apple announced its famous M1 chip</a>, which is a CPU with a different architecture (based on the <a href="https://en.wikipedia.org/wiki/ARM_architecture_family">ARM architecture family</a>). It promised a big leap in power efficiency and it delivered, but just like any new architecture, there is an adoption curve for software support. So if you go for this option, check that it's compatible with your usage.
+
+</details>
+
 
 #### GPU
 
@@ -211,7 +222,7 @@ With all this information, you deserve a quick recap!
 - **CPU**: performs operations sequentially using the data stored in RAM, essential to your laptop whatever your usage. You can compare performances on websites such as [CPU Benchmark](https://www.cpubenchmark.net/).
 - **GPU**: performs operations in parallel, not essential to your laptop (apart from gaming & other graphics intensive usages). You can compare performances on websites such as [GPU User Benchmark](https://gpu.userbenchmark.com/).
 
-**Display**
+**Build quality**
 - **screen size**: the physical size of your screen.
 - **native resolution**: the number of pixels on each side of your screen.
 - **refresh rate**: how many times per second each pixel value can change.
@@ -220,12 +231,67 @@ With all this information, you deserve a quick recap!
 ## The different usage types
 
 You can always have multiple usage for your laptop, but I highly suggest you take a second to wonder what you will actually use it for in the coming years. I'll distinguish 4 usage types and lay out how they translate in terms of comparison aspects:
-- **Gaming**: no real concern for autonomy or weight, budget can vary, performance is key
-- **Media**: no real performance requirement, budget should remain low, autonomy, weight and screen quality are key
-- **Working** (software development, presentations, Excel, etc.): flexible budget constraints, performance is important, autonomy & weight are key
-- **Graphics intensive** (deep learning, 3D rendering, etc.): similar to gaming, but performance of GPU is every more important, and autonomy is nice (but rarely compatible)
+- **Gaming**: playing video games.
+- **Media**: Netflix & chill, web browsing.
+- **Working**: software development, presentations, spreadsheets, etc.
+- **Graphics-intensive**: deep learning, 3D rendering, etc.
 
 {% include info.html text="You can easily overlap several usage types: in my case, I have been doing deep learning for work." %}
+
+### What does it mean for technical specifications?
+
+| Usage | Key aspects | Recommended specs |
+|-|-|-|
+| Gaming | performance | Powerful CPU & GPU, large RAM capacity, high screen refresh rate |
+| Media | autonomy, screen quality | Good battery life, good screen refresh rate |
+| Working | performance, weight, autonomy | Powerful CPU, good RAM capacity, excellent battery life |
+| Graphics-intensive | performance, autonomy | Powerful CPU & GPU, large RAM capacity, good battery life |
+
+### Do I need a dedicated GPU?
+
+For media and working usages, you can skip this section :thumbsup:
+
+#### Gaming
+
+If you are the type of person wants only tolerates "Ultra" graphics settings, you should be aware that video games maximum settings have rapidly evolving hardware requirements. That means that you might need to update some components soon (you should be good for 2 years at least still). In that case, perhaps consider a desktop computer as your laptop will be have a limited number of components that you can replace :shrug:
+
+If you have a looser tolerance for graphics settings, or you simply want to be able to play in the train, don't go for the most expensive GPU. You can find decently-powerful mobile GPUs at better price :wink:
+
+<details>
+  <summary>Modern GPU features</summary>
+
+  <img src="https://i.ytimg.com/vi/F4HkXEzzcRw/maxresdefault.jpg" alt="RTX"/><br><br>  
+  
+  You care about graphics quality and frame rate, right? Whether you go for AMD Radeon or NVIDIA GeForce products, there are two modern features you should be chasing:<br>
+  - <a href="https://www.youtube.com/watch?v=xPTjQ59gbJo">Ray tracing</a>: the rendering is done by tracing the path of light and its interaction, instead of performing rasterization (converting 3D graphics into 2D pixels thanks to shaders).<br>
+  - <a href="https://www.nvidia.com/fr-fr/geforce/technologies/dlss/">DLSS</a> / <a href="https://www.amd.com/en/technologies/fidelityfx-super-resolution">FSR</a>: the GPU will oversample the rendering (spatially and temporarily) using Deep Learning to boost the FPS.<br><br>
+
+  On NVIDIA side, aim at least for RTX 20 series (RTX 2070 and up, or RTX 3060 and up). On AMD side, aim for 6 series (RX 6700 XT and up).
+
+</details>
+
+#### Deep Learning
+
+Doing deep learning does not necessarily mean that you need a GPU laptop! You can:
+- use a GPU desktop computer instead: either do everything on your desktop computer, or limit laptop tasks to the ones that don't require a GPU.
+- leverage Cloud GPU instances: don't want to bother with hardware? Try <a href="https://colab.research.google.com/notebooks/gpu.ipynb">Google Colab</a> with free access to GPU, or explore more powerful paying options.
+
+For both those options, nor the data or the computing will be on your laptop. The laptop would only give a control access over those machines and you can train freely without overheating your laptop :sunglasses:
+
+![unlimited-power](https://media4.giphy.com/media/3o84sq21TxDH6PyYms/giphy.gif?cid=ecf05e47cf6fbhh0178nxfjvjf2ha228rn3xrf4eb08ljyia&rid=giphy.gif&ct=g)
+
+If you are frequently using your laptop for deep learning outside of your place (or office), desktop will not help. If on top of this, internet access is not always stable (in the train), cloud GPU will not be accessible. It's up to you!
+
+<details>
+  <summary>How to size my GPU</summary>
+
+  Modern GPUs (NVIDIA RTX 20 or 30 series) leverage FP16 training to train models twice as big by giving up a bit of float precision.<br>
+
+  So, estimate your VRAM needs first. It depends both on the type of task and the model size. In computer vision for instance, image classification, object detection and segmentation have enough model options to fit on a 6Gb VRAM in FP16. Investigate a bit the default VRAM needed for your specific tasks.<br><br>
+
+  Then it's all a matter of cores (both the count and their <a href="https://www.tomshardware.com/features/nvidia-ampere-architecture-deep-dive">generation</a>): there are Ray Tracing (RT) cores, Tensor cores and CUDA cores. For deep learning, you're only interested in the last two.
+  
+</details>
 
 
 ## Benchmark & selection process
@@ -255,7 +321,7 @@ Here we're trying to find a few good laptop options with minimal investigation t
 | Screen resolution | FHD/1080p, QHD/2k, UHD/4k | FHD is enough, the rest is up to you |
 | GPU Y/N | None [^2], AMD Radeon, NVIDIA GeForce | Only gaming and graphics really need a GPU. Compatibility-wise, deep learning require NVIDIA products for now. |
 | CPU | Intel Core, AMD Ryzen | Whatever fits your budget and gets you the best performance [^3] |
-| RAM capacity | 4Gb, 8Gb, 16Gb, 32Gb | >= 8Gb |
+| RAM capacity | 4Gb, 8Gb, 16Gb, 32Gb | >= 8Gb (>= 16Gb for gaming and graphics) |
 | Storage type | HDD, SSD | HDD is you can afford it (it's a must-have for deep learning) |
 | Storage capacity | 256Gb, 512Gb, 1Tb, etc. | >= 512Gb |
 | Price | N/A | Up to you |
@@ -311,13 +377,15 @@ Now to get your hands on it, at the best price, you should check:
 
 I told you I had to go through this process recently right? A good example will better illustrates the previous sections.
 
+So I was looking for a laptop for machine learning [^7], that I'll be working with in different environments (sometimes in the train). That rules out the options of a desktop GPU computer (which would also take much more room at home), or cloud GPUs.
+
 ### Narrow down the search
 
 Let's start with my personal criteria:
 
 | Criteria | Value |
 |-|-|
-| Usage | Working & Graphics intensive [^7] |
+| Usage | Working & Graphics intensive |
 | Sreen size | 15' |
 | Sreen resolution | FHD/1080p |
 | Autonomy | >= 3-4h when not using the GPU |
@@ -327,7 +395,7 @@ Let's start with my personal criteria:
 
 
 The desired usage (deep learning), as mentioned previously, brings about more technical constraints:
-- GPU: a powerful NVIDIA mobile GPU, of recent generations (RTX 20 or 30), with VRAM >= 6Gb.
+- GPU: a powerful NVIDIA mobile GPU, of recent generations (RTX 20 or 30), with VRAM >= 6Gb [^8].
 - CPU: a powerful CPU, either an Intel Core 12th gen (>= i5) or 11th gen (>= i7), or an AMD Ryzen 6k series (>=5) or 5k series (>= 7).
 - RAM capacity: >= 16Gb
 - Storage type: SSD
@@ -508,4 +576,5 @@ Bravo, you've made it here! Hopefully, you learnt a few things while reading thi
 [^4]:if they have very bad reviews and sales, this product line might disappear in the near future.
 [^5]:on the product page, copy paste the CPU model in the search bar of the website.
 [^6]:YouTube channels (e.g. [JarrodsTech](https://www.youtube.com/c/JarrodsTech), [MatthewMoniz](https://www.youtube.com/c/MatthewMoniz1), [LinusTechTips](https://www.youtube.com/c/LinusTechTips)) can be very useful.
-[^7]:I would be using it for Deep Learning more specifically.
+[^7]:Deep Learning more specifically.
+[^8]:the typical tasks I'd be taking on are perception tasks in computer vision and a bit of NLP. So 6Gb will be enough in FP16!
