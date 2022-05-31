@@ -322,7 +322,7 @@ Here we're trying to find a few good laptop options with minimal investigation t
 | GPU Y/N | None [^2], AMD Radeon, NVIDIA GeForce | Only gaming and graphics really need a GPU. Compatibility-wise, deep learning require NVIDIA products for now. |
 | CPU | Intel Core, AMD Ryzen | Whatever fits your budget and gets you the best performance [^3] |
 | RAM capacity | 4Gb, 8Gb, 16Gb, 32Gb | >= 8Gb (>= 16Gb for gaming and graphics) |
-| Storage type | HDD, SSD | HDD is you can afford it (it's a must-have for deep learning) |
+| Storage type | HDD, SSD | HDD if you can afford it (it's a must-have for deep learning) |
 | Storage capacity | 256Gb, 512Gb, 1Tb, etc. | >= 512Gb |
 | Price | N/A | Up to you |
 
