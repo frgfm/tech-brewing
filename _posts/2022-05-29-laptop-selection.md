@@ -53,7 +53,7 @@ The following concepts are very important as they define how you will experience
 
 ### Memory
 
-For computers, we distinguish storage (things that remains saved even after shutting down your laptop) from RAM (information currently being used by your computer to perform a task at a given moment).
+For computers, we distinguish storage (things that remain saved even after shutting down your laptop) from RAM (information currently being used by your computer to perform a task at a given moment).
 
 {% include info.html text="RAM stands for Random Access Memory, but the French name is more self-explanatory 'mémoire vive' which translates to 'quick/vivacious memory'." %}
 
@@ -253,7 +253,7 @@ For media and working usages, you can [skip this section](#benchmark--selection-
 
 #### Gaming
 
-If you are the type of person wants only tolerates "Ultra" graphics settings, you should be aware that video games maximum settings have rapidly evolving hardware requirements. That means that you might need to update some components soon (you should be good for 2 years at least still). In that case, perhaps consider a desktop computer as your laptop will be have a limited number of components that you can replace :cry:
+If you are the type of person who only tolerates "Ultra" graphics settings, you should be aware that video games maximum settings have rapidly evolving hardware requirements. That means that you might need to update some components soon (you should be good for 2 years at least still). In that case, perhaps consider a desktop computer as your laptop will be have a limited number of components that you can replace :cry:
 
 If you have a looser tolerance for graphics settings, or you simply want to be able to play in the train, don't go for the most expensive GPU. You can find decently-powerful mobile GPUs at better price :wink:
 
@@ -276,7 +276,7 @@ Doing deep learning does not necessarily mean that you need a GPU laptop! You ca
 - use a GPU desktop computer instead: either do everything on your desktop computer, or limit laptop tasks to the ones that don't require a GPU.
 - leverage Cloud GPU instances: don't want to bother with hardware? Try <a href="https://colab.research.google.com/notebooks/gpu.ipynb">Google Colab</a> with free access to GPU, or explore more powerful paying options.
 
-For both those options, nor the data or the computing will be on your laptop. The laptop would only give a control access over those machines and you can train freely without overheating your laptop :sunglasses:
+For both options, nor the data or the computing will be on your laptop. The laptop would only give a control access over those machines and you can train freely without overheating your laptop :sunglasses:
 
 ![unlimited-power](https://media4.giphy.com/media/3o84sq21TxDH6PyYms/giphy.gif?cid=ecf05e47cf6fbhh0178nxfjvjf2ha228rn3xrf4eb08ljyia&rid=giphy.gif&ct=g)
 
@@ -309,7 +309,7 @@ What you can generally upgrade/replace[^1]:
 
 *Whatever the type of modifications you're considering, check whether your model can be upgraded (simple web search, or Youtube search), and if the replacing components are available for sale.*
 
-In a nutshell, **slow data reading, insufficient storage, and dying battery are far from requiring the purchase a new laptop**. Please don't buy a new laptop if that's the main reason, replacing a component is significantly cheaper and the planet will be quite thankful :green_heart:
+In a nutshell, **slow data reading, insufficient storage, and dying battery are far from requiring the purchase of a new laptop**. Please don't buy a new laptop if that's the main reason, replacing a component is significantly cheaper and the planet will be quite thankful :green_heart:
 
 
 ### Narrow down the search scope
@@ -534,6 +534,8 @@ Let's run down the checklist:
 </details>
 
 No red flags, so the choice is confirmed :rocket:
+
+*Note: I checked second-hand platforms ([Backmarket](https://www.backmarket.fr/)), but unfortunately, this model wasn't available. After a few Google searches, I ended up buying it on the manufacturer website because there was no price difference.*
 
 
 ## Final tips to get the best out of your laptop
