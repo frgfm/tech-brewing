@@ -161,7 +161,7 @@ If we leave it up to the CPU to do this, as mentioned, the task parallelisation 
 
 ![theoffice-cod](https://media0.giphy.com/media/7ukAmtG7h6OwZRNJiM/giphy.gif?cid=790b7611c25de5e6ee40fdc326f05e2d551ea1cf37324bab&rid=giphy.gif&ct=g)
 
-Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU User Benchmark](https://gpu.userbenchmark.com/)) that will do the heavy lifting for you!
+While it now has found many other purposes, the GPU was initially brought to market for video games and 3D rendering! Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU User Benchmark](https://gpu.userbenchmark.com/)) that will do the heavy lifting for you!
 
 <details>
   <summary>The other lesser known siblings: TPU & IPU</summary>
@@ -251,9 +251,11 @@ You can always have multiple usage for your laptop, but I highly suggest you tak
 
 For media and working usages, you can [skip this section](#benchmark--selection-process) :thumbsup:
 
-#### Gaming
+#### Gaming & 3D rendering
 
 If you are the type of person who only tolerates "Ultra" graphics settings, you should be aware that video games maximum settings have rapidly evolving hardware requirements. That means that you might need to update some components soon (you should be good for 2 years at least still). In that case, perhaps consider a desktop computer as your laptop will be have a limited number of components that you can replace :cry:
+
+{% twitter https://twitter.com/80Level/status/1538816428253409280?s=20 %}
 
 If you have a looser tolerance for graphics settings, or you simply want to be able to play in the train, don't go for the most expensive GPU. You can find decently-powerful mobile GPUs at better price :wink:
 
