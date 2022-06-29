@@ -92,7 +92,7 @@ To compare storage options, consider their:
 
 ![ram](https://www.crucial.fr/content/dam/crucial/dram-products/laptop/images/web/crucial-ddr4-sodimm-kit-w-shadow-image.psd.transform/small-jpg/img.jpg)
 
-Conversely to storage, RAM is volatile: the data stored will be lost if it's powered down. On a computer, you sollicitate the RAM as you open more web browser tabs or applications for instance. It is much faster than storage, but much more limited in terms of capacity (a few gigabytes up to a dozen in 2022).
+Conversely to storage, RAM is volatile: the data stored will be lost if it's powered down. On a computer, you solicit the RAM as you open more web browser tabs or applications for instance. It is much faster than storage, but much more limited in terms of capacity (a few gigabytes up to a dozen in 2022).
 
 <details>
   <summary>RAM in-depth look</summary>
@@ -159,15 +159,15 @@ If we leave it up to the CPU to do this, as mentioned, the task parallelisation 
 
 </details>
 
-![sleepy-jim](https://media2.giphy.com/media/nqS1Eikkw2Lsc/giphy.gif?cid=790b7611e6c1353efa51d04b7c389e2f15b0cd4a88b16900&rid=giphy.gif&ct=g)
+![theoffice-cod](https://media0.giphy.com/media/7ukAmtG7h6OwZRNJiM/giphy.gif?cid=790b7611c25de5e6ee40fdc326f05e2d551ea1cf37324bab&rid=giphy.gif&ct=g)
 
-That's a lot of information, I agree. Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU User Benchmark](https://gpu.userbenchmark.com/)) that will do the heavy lifting for you!
+Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU User Benchmark](https://gpu.userbenchmark.com/)) that will do the heavy lifting for you!
 
 <details>
   <summary>The other lesser known siblings: TPU & IPU</summary>
 
   - <a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">TPU</a>: as deep learning grew bigger in the 2010s, people started looking at GPUs, which were designed for Gaming and 3D rendering, for their own purpose. In 2015, Google developed and started using internally Tensor Processing Units (TPU). Rather than repurposing something designed for video games, they worked on a chip for deep learning, and more generally speaking, tensor processing. You cannot purchase one, but you can experiment with it on <a href="https://colab.research.google.com/github/pytorch/xla/blob/master/contrib/colab/getting-started.ipynb">Google Colab</a>!<br>
-  - <a href="https://www.graphcore.ai/products/ipu">IPU</a>: the company called Graphcore has been developping another chip of their own, called an Intelligence Processing Unit (IPU), which has become gradually known in the machine learning community.
+  - <a href="https://www.graphcore.ai/products/ipu">IPU</a>: the company called Graphcore has been developing another chip of their own, called an Intelligence Processing Unit (IPU), which has become gradually known in the machine learning community.
 
 </details>
 
@@ -342,7 +342,7 @@ Once you've exhausted the search filters, we're going to have to take a closer l
 
 | Criteria | Options | Recommended |
 |-|-|-|
-| Battery | 40Wh, 60Wh, 80-90Wh | GPUs consume more power, so graphics-intesive users should aim for at least 60Wh. |
+| Battery | 40Wh, 60Wh, 80-90Wh | GPUs consume more power, so graphics-intensive users should aim for at least 60Wh. |
 | Keyboard layout | qwerty, azerty, etc. | depends on your region & spoken language |
 | Wifi card | 11ac, 11ax | 11ax is the new, faster generation for Wifi |
 | OS compatibility | Windows, MAC, Ubuntu | you'll need Windows for Gaming, the rest is up to you |
@@ -386,8 +386,8 @@ Let's start with my personal criteria:
 | Criteria | Value |
 |-|-|
 | Usage | Working & Graphics intensive |
-| Sreen size | 15' |
-| Sreen resolution | FHD/1080p |
+| Screen size | 15' |
+| Screen resolution | FHD/1080p |
 | Autonomy | >= 3-4h when not using the GPU |
 | Budget | <= 1500€ |
 | Keyboard layout | Azerty |
@@ -482,7 +482,7 @@ Let's run down the checklist:
 <details>
   <summary>Tip: compare with your previous laptop</summary>
 
-  Out of safety, I <a href="https://gpu.userbenchmark.com/Compare/Nvidia-RTX-3060-Laptop-vs-Nvidia-RTX-2070-Mobile-Max-Q/m1452971vsm703511">compared the performances</a> of this GPU with my last profesionnal laptop, a Razer Blade 15, NVIDIA RTX 2070 Max Q. It outperforms it by 8-12% on all aspects, while the price being much lower (1499€ for the Dell G15, while the Razer Blade was 2200€ and the end of 2020 when it was purchased). I did the comparison because performance-wise, I was very happy with that previous laptop.
+  Out of safety, I <a href="https://gpu.userbenchmark.com/Compare/Nvidia-RTX-3060-Laptop-vs-Nvidia-RTX-2070-Mobile-Max-Q/m1452971vsm703511">compared the performances</a> of this GPU with my last professional laptop, a Razer Blade 15, NVIDIA RTX 2070 Max Q. It outperforms it by 8-12% on all aspects, while the price being much lower (1499€ for the Dell G15, while the Razer Blade was 2200€ and the end of 2020 when it was purchased). I did the comparison because performance-wise, I was very happy with that previous laptop.
 
 </details>
 
@@ -553,13 +553,13 @@ What can you do for this?
 
 ### A good night sleep for everyone
 
-When you go to bed, consider shutting down your laptop instead of clapping it/putting it to sleep :sleeping: Simply put, while in sleep mode, your hardware is sollicitated more than when shut down (remember, it's not shut down so the RAM is loaded with data among others). If you put it to sleep, that will reduce its life expectancy.
+When you go to bed, consider shutting down your laptop instead of clapping it/putting it to sleep :sleeping: Simply put, while in sleep mode, your hardware is solicited more than when shut down (remember, it's not shut down so the RAM is loaded with data among others). If you put it to sleep, that will reduce its life expectancy.
 
 ### Minimizing the number of charge cycles
 
 Some people say that leaving it plugged won't damage the battery well-being (same debate with smartphones), some say the opposite. I am no expert in charger and laptop battery manufacturing, but why take the risk?
 
-When plugged, you sollicitate:
+When plugged, you solicit:
 - your laptop charger
 - your laptop battery
 
