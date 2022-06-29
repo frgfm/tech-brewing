@@ -533,9 +533,9 @@ Let's run down the checklist:
   
 </details>
 
-No red flags, so the choice is confirmed :rocket:
-
 ![theoffice-party](https://media3.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif?cid=ecf05e472nuwpc7pvotkajg75odha0w3uek04s2gx4fz6si9&rid=giphy.gif&ct=g)
+
+No red flags, so the choice is confirmed :rocket:
 
 *Note: I checked second-hand platforms ([Backmarket](https://www.backmarket.fr/)), but unfortunately, this model wasn't available. After a few Google searches, I ended up buying it on the manufacturer website because there was no price difference.*
 
