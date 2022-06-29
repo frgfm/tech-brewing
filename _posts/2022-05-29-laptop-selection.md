@@ -493,7 +493,7 @@ Let's run down the checklist:
   {% include youtube.html content='https://www.youtube.com/embed/Ej_mgN25a_I' %}
 
   Review takeaways:<br>
-  - SSD & RAM are upgradable<br>
+  - SSD & RAM are upgradeable<br>
   - very good value for money in terms of perf thanks to 12th gen Intel CPU<br>
   - very good screen quality<br>
   - incredible battery
@@ -572,7 +572,7 @@ As a rule of thumb, since we don't know for sure, if you don't need max perf and
 
 ![thats-all-folks](https://media3.giphy.com/media/lD76yTC5zxZPG/giphy.gif?cid=ecf05e477c8s5rct86yltjz5cmmfdcl2icck93gxb8ufrk08&rid=giphy.gif&ct=g)
 
-Bravo, you've made it here! Hopefully, you learnt a few things while reading this article, which still has a lot of room for improvements. If you spotted some imprecisions, mistakes, or if you have improvement ideas, please let me know :grin:
+Bravo, you've made it here! Hopefully, you've learned a few things while reading this article, which still has a lot of room for improvements. If you spotted some imprecisions, mistakes, or if you have improvement ideas, please let me know :grin:
 
 [^1]:some manufacturers, like Apple, don't let people easily tweak the inside of their laptops.
 [^2]:modern laptops will have an integrated GPU (iGPU), when they don't have a dedicated GPU (dGPU). Usually the iGPU brand is the same as the CPU's manufacturer.
