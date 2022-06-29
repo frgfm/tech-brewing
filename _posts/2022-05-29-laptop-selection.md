@@ -131,7 +131,7 @@ Every personal computers has a **Central Processing Unit (CPU)**. This component
 
 ![fascinating](https://media3.giphy.com/media/4LwKrBfFQgBaw/giphy.gif?cid=790b76114abee4be7adcad307d3b666aaa2a4c05a8c7bb8f&rid=giphy.gif&ct=g)
 
-That may not sound very appealing, right? Fortunately there are multiple online benchmarks that compare CPUs for you, and provide an aggregate performance score that you can reliably use for your own comparison (e.g. [CPU Benchmark](https://www.cpubenchmark.net/)).
+You don't want to get into the specifics yourself? Fortunately there are multiple online benchmarks that compare CPUs for you, and provide an aggregate performance score that you can reliably use for your own comparison (e.g. [CPU Benchmark](https://www.cpubenchmark.net/)).
 
 
 <details>
@@ -159,7 +159,7 @@ If we leave it up to the CPU to do this, as mentioned, the task parallelisation 
 
 </details>
 
-![theoffice-cod](https://media0.giphy.com/media/7ukAmtG7h6OwZRNJiM/giphy.gif?cid=790b7611c25de5e6ee40fdc326f05e2d551ea1cf37324bab&rid=giphy.gif&ct=g)
+{% twitter https://twitter.com/80Level/status/1538816428253409280?s=20 %}
 
 While it now has found many other purposes, the GPU was initially brought to market for video games and 3D rendering! Similarly to CPU, you can find multiple online benchmarks for GPU (e.g. [GPU User Benchmark](https://gpu.userbenchmark.com/)) that will do the heavy lifting for you!
 
@@ -254,8 +254,6 @@ For media and working usages, you can [skip this section](#benchmark--selection-
 #### Gaming & 3D rendering
 
 If you are the type of person who only tolerates "Ultra" graphics settings, you should be aware that video games maximum settings have rapidly evolving hardware requirements. That means that you might need to update some components soon (you should be good for 2 years at least still). In that case, perhaps consider a desktop computer as your laptop will be have a limited number of components that you can replace :cry:
-
-{% twitter https://twitter.com/80Level/status/1538816428253409280?s=20 %}
 
 If you have a looser tolerance for graphics settings, or you simply want to be able to play in the train, don't go for the most expensive GPU. You can find decently-powerful mobile GPUs at better price :wink:
 
@@ -536,6 +534,8 @@ Let's run down the checklist:
 </details>
 
 No red flags, so the choice is confirmed :rocket:
+
+![theoffice-party](https://media3.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif?cid=ecf05e472nuwpc7pvotkajg75odha0w3uek04s2gx4fz6si9&rid=giphy.gif&ct=g)
 
 *Note: I checked second-hand platforms ([Backmarket](https://www.backmarket.fr/)), but unfortunately, this model wasn't available. After a few Google searches, I ended up buying it on the manufacturer website because there was no price difference.*
 
