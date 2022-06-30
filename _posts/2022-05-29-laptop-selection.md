@@ -482,7 +482,7 @@ Let's run down the checklist:
 <details>
   <summary>Tip: compare with your previous laptop</summary>
 
-  Out of safety, I <a href="https://gpu.userbenchmark.com/Compare/Nvidia-RTX-3060-Laptop-vs-Nvidia-RTX-2070-Mobile-Max-Q/m1452971vsm703511">compared the performances</a> of this GPU with my last professional laptop, a Razer Blade 15, NVIDIA RTX 2070 Max Q. It outperforms it by 8-12% on all aspects, while the price being much lower (1499€ for the Dell G15, while the Razer Blade was 2200€ and the end of 2020 when it was purchased). I did the comparison because performance-wise, I was very happy with that previous laptop.
+  Out of safety, I <a href="https://gpu.userbenchmark.com/Compare/Nvidia-RTX-3060-Laptop-vs-Nvidia-RTX-2070-Mobile-Max-Q/m1452971vsm703511">compared the performances</a> of this GPU with my last professional laptop, a Razer Blade 15, NVIDIA RTX 2070 Max Q. It outperforms it by 8-12% on all aspects, while the price being much lower (1499€ for the Dell G15, while the Razer Blade was 2200€ at the end of 2020 when it was purchased). I did the comparison because performance-wise, I was very happy with that previous laptop.
 
 </details>
 
@@ -565,7 +565,7 @@ When plugged, you solicit:
 - your laptop charger
 - your laptop battery
 
-As a rule of thumb, since we don't know for sure, if you don't need max perf and have a lot of battery, unplug your charger :+1:
+As a rule of thumb, since we don't know for sure, if you don't need maximum performances and have a lot of battery, unplug your charger :+1:
 
 
 ## The End
